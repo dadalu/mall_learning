@@ -1,4 +1,3 @@
-/*
 package com.wxc.mall_learning.service;
 
 public interface UmsAdminService {
@@ -12,4 +11,3 @@ public interface UmsAdminService {
     List<UserPermission> getPermissionList(Long adminId);
 
 }
-*/

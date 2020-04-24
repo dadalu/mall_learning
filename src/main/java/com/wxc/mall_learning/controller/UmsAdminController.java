@@ -1,4 +1,3 @@
-/*
 package com.wxc.mall_learning.controller;
 
 import com.wxc.mall_learning.common.api.CommonResult;
@@ -40,7 +39,7 @@ public class UmsAdminController {
         if(umsAdmin==null){
             CommonResult.failed();
         }
-        return CommonResult.success(umsAdmin);
+        return CommonResult.success(umsAdmin);/**/
     }
 
     @ApiOperation(value = "登录以后返回token")
@@ -60,4 +59,3 @@ public class UmsAdminController {
 
     public CommonResult<List<UmsPermission>> getPermissionList(@PathVariable Long adminId)
 }
-*/
